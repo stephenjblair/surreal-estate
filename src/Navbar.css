@@ -27,8 +27,17 @@
     padding: 10px;
 }
 
-.navbar li:hover {
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
     background-color: #a8aeb1;
     color: #fff;
     border-radius: 15px;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+    color: #000;
 }

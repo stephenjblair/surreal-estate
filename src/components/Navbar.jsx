@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Navbar.css';
 import house from '../house.png';
 
@@ -10,8 +11,12 @@ const Navbar = () => {
           <img src={house} alt="house logo" height="50px" width="50px" />
         </li>
         <span className="logo-title">SURREAL ESTATE</span>
-        <li className="item">View Properties</li>
-        <li className="item">Add a Property</li>
+        <Link className="item" to="/Properties">
+          View Properties
+        </Link>
+        <Link className="item" to="/AddProperty">
+          Add a Property
+        </Link>
       </ul>
     </div>
   );
