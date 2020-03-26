@@ -1,0 +1,35 @@
+.AddProperty {
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+}
+
+.AddPropety button {
+    font-family: 'Nunito', sans-serif;
+    
+}
+.add-property-description {
+    display: inline-block;
+    padding: 5px;
+}
+.add-property-description input {
+    width: 300px;
+    border-radius: 5px;
+}
+.property-dropdown {
+    display: inline-block;
+    padding: 5px;
+}
+
+.property-dropdown select {
+    font-family: 'Nunito', sans-serif;
+
+}
+.city-dropdown {
+    display: inline-block;
+    padding: 5px;
+}
+
+.city-dropdown select {
+    font-family: 'Nunito', sans-serif;
+}
