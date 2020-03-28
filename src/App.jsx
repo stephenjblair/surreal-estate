@@ -12,10 +12,10 @@ class App extends React.Component {
       <div>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Properties} />
+          <Route exact path="/Properties" component={Properties} />
         </Switch>
         <Switch>
-          <Route exact path="/" component={AddProperty} />
+          <Route exact path="/AddProperty" component={AddProperty} />
         </Switch>
       </div>
     );
