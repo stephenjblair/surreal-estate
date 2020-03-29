@@ -1,8 +1,6 @@
 .navbar {
     background-color: #fff;
     border-bottom: grey 2px solid;
-    position: fixed;
-    top: 0;
     width: 100%;
     display: flex;
     justify-content: flex-start ;
@@ -16,8 +14,6 @@
 .item {
     margin :0;
     padding: 10px;
-
-
 }
 
 .logo {
