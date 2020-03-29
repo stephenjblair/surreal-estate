@@ -1,25 +1,28 @@
 .navbar {
     background-color: #fff;
     border-bottom: grey 2px solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start ;
 }
 
 .nav {
     margin: 0;
-    padding: 0;
+    padding: 10px;;
 }
 
 .item {
     margin :0;
     padding: 10px;
-    display: inline-block;
+
 
 }
 
 .logo {
     margin :0;
     padding: 10px;
-    display: inline-block;
-
 }
 
 .logo-title {
@@ -32,9 +35,8 @@
 }
 
 .navbar a:hover {
-    background-color: #a8aeb1;
-    color: #fff;
-    border-radius: 15px;
+    background-color: #bdd4f4;
+    border-radius: 12px;
 }
 
 .navbar a:visited {

@@ -35,7 +35,7 @@ class AddProperty extends Component {
               value={this.state.fields.title}
               onChange={this.handleFieldChange}
               placeholder="Add property description"
-             />
+            />
           </div>
           <div className="property-dropdown">
             <legend>Property Type</legend>
